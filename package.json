@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/GilsonSantoss/Omnistack11/issues"
   },
-  "homepage": "https://github.com/GilsonSantoss/Omnistack11#readme"
+  "homepage": "https://github.com/GilsonSantoss/Omnistack11#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  }
 }
