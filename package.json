@@ -1,0 +1,21 @@
+{
+  "name": "omnistack11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently --kill-others \"npm run back-end\" \"npm run client\"",
+    "client": "cd ./frontend && npm start",
+    "back-end": "cd ./backend && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GilsonSantoss/Omnistack11.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GilsonSantoss/Omnistack11/issues"
+  },
+  "homepage": "https://github.com/GilsonSantoss/Omnistack11#readme"
+}
