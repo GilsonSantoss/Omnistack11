@@ -1,10 +1,10 @@
 import { StyleSheet } from 'react-native';
-import { Constants } from 'expo-constants';
+import Constants from 'expo-constants';
 
 export default StyleSheet.create({
     container: {
         flex:1,
-        paddingHorrizontal:24,
+        paddingHorizontal:24,
         paddingVertical: Constants.statusBarHeight + 20,
     },
     header:{
@@ -22,12 +22,14 @@ export default StyleSheet.create({
     incidentProperty:{
         fontSize:14,
         color:'#41414d',
-        fontWeight:'bold'
+        fontWeight:'bold',
+
     },
     incidentValue:{
         marginTop:8,
         fontSize:15,
         color:'#737370',
+        marginBottom:16
     },
     contactBox:{
          padding:24,
