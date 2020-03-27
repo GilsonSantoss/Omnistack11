@@ -46,12 +46,12 @@ export default function Profile(){
         <div className="profile-container">
             <header>
                 <img src={logoHeroes} title="Brand Heroes" />
-                <span>Bem vinda, {ongName}</span>
+                <span>Bem vindo, {ongName}</span>
                 
                 <Link to="/incidents/new" className="button">Cadastrar novo caso</Link>
                 <button type="button" onClick={handleLogout}>
                     <FiPower size={18} color="#e02041"/>
-                </button> 
+                </button>
             </header>
 
             <h1>Casos Cadastrados</h1>
