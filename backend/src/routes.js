@@ -42,9 +42,4 @@ routes.delete('/incidents/:id',celebrate({
     }),
 }),IncidentController.delete);
 
-// routes.get('/users/:id',(request,response)=>{
-//     const body = request.params
-//     return response.json({mess:body});
-// });
-
 module.exports = routes;
